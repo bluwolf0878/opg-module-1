@@ -1,4 +1,4 @@
-export function createMainContent() {
+export default function createMainContent() {
     const main = document.querySelector('#main');  // Vælg main-elementet
 
     // Opret en kort beskrivelse af moduler

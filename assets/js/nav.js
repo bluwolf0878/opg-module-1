@@ -1,4 +1,4 @@
-export function createNavigation() {
+export default function createNavigation() {
     const nav = document.querySelector('#navigation');  // Vælg navigation-elementet
     const ul = document.createElement('ul');
 
